@@ -240,9 +240,10 @@ label{
 .final{
     display: flex;
     justify-content: space-between;
-    padding: 0px 269px;
+    padding: 30px  269px;
     background-color: #192440;
     color: #ffffff;
+    align-items: center;
 }
 .final img{
     height: 17px;
