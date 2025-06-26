@@ -166,9 +166,10 @@ li{
     width: 105px;
     border: solid #292b2c 1px;
 }
-.transparentes h3{
+.transparentes h3, h4{
     margin-left: 39px;
     margin-bottom: 20px;
+    font-size: 25px;
 }
 .transparentes h2{
     margin-left: 12px;
@@ -246,10 +247,254 @@ label{
     align-items: center;
 }
 .final img{
-    height: 17px;
-    width: 26px;
+    height: 20px;
+    width: 31px;
     margin-left: 16px;
     background-color: #ffff;
     padding: 7px;
     border-radius: 100%;
+}
+.imagen1{
+        width: 160px;
+        height: 127px; 
+    }
+@media (max-width:1279px){
+    .logo{
+        padding: 0px 74px;
+    }
+    .texto1 {
+        padding: 17px 71px;
+    }
+    .texto1 p{
+        font-size: 14px;
+    }
+    .texto1 h1 {
+       font-size: 45px;
+    }
+    .imagen1 {
+        width: 126px;
+        height: 109px;
+    }
+    .primerBoton{
+        padding: 13px 16px;
+        font-size: 12px;
+    }
+    .tresimgs{
+        gap: 18px
+    }
+    .semicontainer2 h2{
+        font-size: 42px;
+    }
+    .segundoBoton{
+        margin-top: 12px;
+        padding: 13px 16px;
+        font-size: 12px;
+    }
+    .semicontainer2{
+        height: 39vh;
+    }
+    .semicontainer2 img {
+        height: 20vh;
+        width: 33vh;
+    }
+    .semicontainer2 div{
+        padding: 30px 0px;
+    }
+    .imgCompu{
+        width: 481px;
+        height: 270px;
+    }
+    .segundosemiconte2 h2 {
+        font-size: 41px;
+        margin-bottom: 10px;
+    }
+    .segundosemiconte2 p{
+        font-size: 15px;
+        width: 329px;
+    }
+    .transparentes{
+        padding: 66px 0px;
+    }
+    .PREMIUM{
+        padding: 67px 62px;
+    }
+    .textarea textarea{
+        width: 335px;
+        height: 104px;
+    }
+    .textarea input{
+        width: 335px;
+    }
+    .dosInput input{
+        width: 156px;
+        height: 22px;
+    }
+    .texto4 p {
+        width: 507px;
+        font-size: 16px;
+    }
+    .container4{
+        padding: 68px 0px;
+        background-position-y: 1px;
+    }
+    .logo1 img {
+        height: 91px;
+        width: 110px;
+    }
+    .ClaroBoton{
+        margin-left: 26px;
+    }
+    .texto4{
+        padding: 33px 5px;
+    }
+    .final{
+        padding: 30px 26px;
+    }
+}
+@media (max-width:920px){
+    .texto1 h1 {
+        font-size: 38px;
+    }
+    .texto1 p {
+        font-size: 12px;
+    }
+    .tresimgs {
+        gap: 20px;
+    }
+    .tresimgs p {
+        width: 221px;
+    }
+    .semicontainer2 h2 {
+        font-size: 34px;
+    }
+    .semicontainer2 div {
+        padding: 0px 19px;
+    }
+    .semicontainer2 {
+        height: 29vh;
+    }
+    .semicontainer2 img {
+        height: 18vh;
+        width: 34vh;
+        margin-right: 30px;
+    }
+    .textarea input{
+        padding: 8px 0px
+    }
+    .imgCompu {
+        width: 377px;
+        height: 213px;
+    }
+    .segundosemiconte2 h2{
+        font-size: 36px;
+    }
+    .segundosemiconte2{
+        padding: 12px 0px;
+    }
+    .transparentes h2 {
+        margin-left: 19px;
+        font-size: 20px;
+        margin-bottom: 17px;
+    }
+    .transparentes h3, h4 {
+        margin-left: 19px;
+    }
+    .OscuroBoton{
+        margin-top: 49px;
+    }
+    li{
+        margin-top: 14px;
+    }
+    .logo1{
+        padding: 20px 0px 0px 0px;
+    }
+    .logo1 img {
+        height: 85px;
+        width: 97px;
+    }
+    .texto4 p {
+        width: 328px;
+    }
+    .texto4 li{
+        font-size: 14px;
+    }
+    .final img{
+        height: 18px;
+        width: 23px;
+    }
+}
+@media (max-width:768px){
+    .logo {
+        padding: 0px 43px;
+    }
+    .imagen1 {
+        width: 91px;
+        height: 86px;
+    }
+    .texto1 {
+        padding: 17px 37px;
+        width: 292px;
+    }
+    .marginTexto {
+        margin-top: 13px;
+    }
+    .primerBoton{
+        font-size: 10px;
+    }
+    .texto2{
+        font-size: 17px;
+    }
+    .tresimgs{
+        display: grid;
+    }
+    .tresimgs p{
+        width: 282px;
+    }
+    .semicontainer2{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 28vh;
+        padding-top: 29px;
+    }
+    .semicontainer2 div{
+        text-align: center;
+    }
+    .semicontainer2 img{
+        margin-left: 87px;
+    }
+    .segundosemiconte2{
+        padding: 113px 0px 23px 0px;
+        display: grid;
+    }
+    .segundosemiconte2 div{
+        text-align: center;
+    }
+    .Check{
+        font-size: 32px;
+    }
+    .trespromo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .ClaroBoton{
+        margin-left: 188px;
+    }
+    .OscuroBoton{
+        margin-left: 122px;
+    }
+    .logo1 img {
+        height: 87px;
+        width: 70px;
+    }
+    .container4{
+        display: grid;
+    }
+    .final {
+        padding: 20px 12px;
+    }
+    .final img {
+        height: 15px;
+        width: 14px;
+    }
 }
