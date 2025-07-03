@@ -551,16 +551,26 @@ label{
         padding: 25px 0px;
     }
     .ClaroBoton {
-        margin-left: 128px;
+        margin-left: 0%;
+        
     }
     .OscuroBoton{
-        margin-left: 63px;
+        margin-left: 0px;
     }
     .logo1 img {
         height: 81px;
         width: 52px;
     }
+    .PREMIUM {
+        padding: 59px 0px 38px;
+        place-items: center;
+    }
+    .transparentes{
+        padding: 50px 0px 50px 0px;
+        place-items: center;
+    }
     .logosimg{
         display: flex;
     }
+
 }
