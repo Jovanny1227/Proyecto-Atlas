@@ -195,7 +195,7 @@ li{
     background-image: url(imgs/contact-bk.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: -116px;
+    background-position-y: 1px;
 }
 .dosInput{
     display: flex;
@@ -373,6 +373,9 @@ label{
     .semicontainer2 {
         height: 29vh;
     }
+    .semicontainer2 p{
+        width: 292px;
+    }
     .semicontainer2 img {
         height: 18vh;
         width: 34vh;
@@ -407,6 +410,7 @@ label{
     }
     .logo1{
         padding: 20px 0px 0px 0px;
+        margin-top: 0px;
     }
     .logo1 img {
         height: 85px;
@@ -446,6 +450,7 @@ label{
     }
     .tresimgs{
         display: grid;
+        padding-left: 20px;
     }
     .tresimgs p{
         width: 282px;
@@ -453,21 +458,23 @@ label{
     .semicontainer2{
         display: flex;
         flex-direction: column-reverse;
-        height: 28vh;
+        height: 26vh;
         padding-top: 29px;
     }
     .semicontainer2 div{
         text-align: center;
+        justify-items: center;
     }
     .semicontainer2 img{
         margin-left: 87px;
     }
     .segundosemiconte2{
-        padding: 113px 0px 23px 0px;
+        padding: 130px 0px 33px 0px;
         display: grid;
     }
     .segundosemiconte2 div{
         text-align: center;
+        justify-items: center;
     }
     .Check{
         font-size: 32px;
@@ -483,6 +490,7 @@ label{
     .OscuroBoton{
         margin-left: 122px;
     }
+    
     .logo1 img {
         height: 87px;
         width: 70px;
@@ -496,5 +504,63 @@ label{
     .final img {
         height: 15px;
         width: 14px;
+    }
+}
+
+@media (max-width:480px){
+    .texto1{
+        width: 160px;
+    }
+    .texto1 p{
+        width: 232px;
+    }
+    .texto2{
+        font-size: 11px;
+    }
+    .semicontainer2 img{
+        width: 28vh;
+        height: 16vh;
+        margin-left: 47px;
+    }
+    .tresimgs{
+        padding-left: 24px;
+    }
+    .semicontainer2 p {
+        width: 235px;
+    }
+    .imgCompu {
+        width: 32vh;
+        height: 18vh;
+        margin-left: 21px;
+    }
+    .semicontainer2{
+        height: 23vh;
+    }
+    .segundosemiconte2 {
+        padding: 176px 0px 33px 0px
+    }
+    .segundosemiconte2 p {
+        font-size: 16px;
+        width: 256px;
+    }
+    .transparentes {
+        padding: 36px 0px;
+    }
+    .Check {
+        font-size: 27px;
+        padding: 25px 0px;
+    }
+    .ClaroBoton {
+        margin-left: 128px;
+    }
+    .OscuroBoton{
+        margin-left: 63px;
+    }
+    .logo1 img {
+        height: 81px;
+        width: 52px;
+    }
+    .logosimg{
+        display: flex;
     }
 }
